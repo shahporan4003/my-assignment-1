@@ -425,3 +425,80 @@ navbar {
 .ai-box ul a{
   list-style: none;
 }
+.hackathon{
+    padding: 60px 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.hackathon h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.hack-box{
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hack-box h3{
+    margin-bottom: 15px;
+}
+
+.hack-box p{
+    margin-bottom: 15px;
+}
+
+.hack-box ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.hack-box li{
+    margin: 10px 0;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #0b1329;
+  padding: 60px 0;
+  color: #64748b;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ba
+}
+
+.social-media {
+  display: flex;
+
+  align-items: center;
+  gap: 16px;
+}
+
+.social-media img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.social-media a:hover img {
+  background-color: #4d4a4a;
+}
