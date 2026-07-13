@@ -399,3 +399,29 @@ navbar {
 .list-white li {
   color: #e5e7eb;
 }
+
+/* ai box and footer */
+
+.ai-box {
+ 
+  background-color: #c9bbbb;
+  border-radius: 12px;
+  padding: 80px 20px;
+}
+
+.ai-box h4 {
+  font-size: 40px;
+  color: #ed3a3a;
+  margin-bottom: 10px;
+}
+.ai-box p {
+  font-size: 25px;
+  font-weight: 680;
+  color: #a78bfa;
+}
+.ai box a{
+  style="text-decoration: none; color: inherit;"
+}
+.ai-box ul a{
+  list-style: none;
+}
