@@ -291,3 +291,70 @@ navbar {
   margin-top: 8rem;
 }
 
+/* speaker and card section */
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #f3f4f6;
+}
+
+.card-dark {
+  background-color: #0b1329;
+  border-color: #0b1329;
+  color: #ffffff;
+}
+
+.p-30 {
+  padding: 40px 32px;
+}
+
+/* Speaker Details in Cards */
+
+.card-img {
+  width: 100%;
+  height: 280px;
+  background-color: #f3f4f6;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 24px;
+}
+.card-info h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.card-info p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* additional tags */
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+.tag-blue {
+  color: #2563eb;
+}
+.tag-purple {
+  color: #7c3aed;
+}
+.tag-lightblue {
+  color: #06b6d4;
+}
+.tag-navy {
+  color: #1e3a8a;
+}
