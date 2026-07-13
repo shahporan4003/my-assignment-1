@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  color: #111827;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+/* layout */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.bg-light {
+  background-color: #fafafa;
+}
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.text-light {
+  color: #9ca3af !important;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 48px;
+}
+.w-100 {
+  width: 100%;
+}
+
+/* flexbox and grid  */
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* grid separation */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+/* layout */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.bg-light {
+  background-color: #fafafa;
+}
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.text-light {
+  color: #9ca3af !important;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 48px;
+}
+.w-100 {
+  width: 100%;
+}
+
+/* flexbox and grid  */
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* grid separation */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* botton section */
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #d1d5db;
+  color: #2563eb;
+}
+
+.btn-outline:hover {
+  background-color: #f3f4f6;
+}
+navbar {
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.logo{
+    display: flex;
+    gap: 2px;
+}
+.logo img {
+  height: 38px;
+  gap: 4px;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-menu a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b5563;
+  transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+  color: #2563eb;
+}
+
+/* hero section */
+
+.hero-banner {
+  position: relative;
+  margin-top: 80px;
+  height: 520px;
+  background: url("./resources/banner.jpg") center 35% / cover no-repeat;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 0 24px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  font-style: italic;
+  font-weight: 700;
+}
+.hero-content p {
+  font-size: 16px;
+  color: #d1d5db;
+  margin-bottom: 36px;
+}
+.hero-btn {
+  padding: 14px 32px;
+  font-size: 15px;
+  margin-top: 8rem;
+}
+
